@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+.inp{
+    border-radius: 0;
+}
+.footer__div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.footer__div1__first{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    color: white;
+}
+.footer__div1__second{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footer__div1__second p:hover{
+    color: orange;
+}
